@@ -1,0 +1,17 @@
+<configuration scan="true" scanPeriod="2 minutes">
+
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%date %level [%thread] [%logger:%line] %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <logger level="INFO" name="org.apache.http" />
+  <logger level="WARN" name="org.jboss.resteasy" />
+  <logger level="INFO" name="org.jboss.resteasy.core" />
+  <logger level="DEBUG" name="io.kearls.pr696" />
+
+  <root level="INFO">
+    <appender-ref ref="STDOUT" />
+  </root>
+</configuration>
