@@ -10,7 +10,7 @@
 
     <properties>
         <jaeger.version>0.25.0</jaeger.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <logback.version>1.2.3</logback.version>
         <maven.compiler.plugin.version>3.7.0</maven.compiler.plugin.version>
         <maven.compiler.source>1.8</maven.compiler.source>
